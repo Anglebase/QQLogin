@@ -22,9 +22,9 @@
         ],
         "compile": true,
         "start": true,
-        "target": "./login.exe",
+        "target": "./QQLogin.exe",
         "option": [
-            "-g"
+            "-O4"
         ]
         // "define": [
         //     "UNICODE",
