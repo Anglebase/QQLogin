@@ -28,7 +28,7 @@ CloseButton::CloseButton(const Rect &rect, Block *parent)
             .startValue = this->Button::style.backgroundColor,
             .endValue = this->Button::style.hoverColor,
             .duration = 200ms,
-            .function = Color::color_lerp,
+            .function = Color::lerp,
         },
     };
 
